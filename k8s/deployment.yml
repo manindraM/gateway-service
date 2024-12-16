@@ -16,7 +16,7 @@ spec:
         app: gateway-service
     spec:
       containers:
-      - image: docker.io/manindran/api-gateway-service:0.0.1-SNAPSHOT
+      - image: docker.io/manindran/tmdb-api-gateway:0.0.1-SNAPSHOT
         name: gateway-service
         volumeMounts:
         - mountPath: /app/config

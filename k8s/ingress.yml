@@ -15,4 +15,4 @@ spec:
           service:
             name: gateway-service  # The service name to route traffic to
             port:
-              number: 80      # The port on which the service is listening
+              number: 8080      # The port on which the service is listening
